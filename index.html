@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="heading">
+        <h1>Currency Convertor</h1>
+        <div class="heading_img">
+          <img src="./img/nepal.png" />
+          <img src="./img/portual.png" />
+          <img src="./img/germany.png" />
+        </div>
+      </div>
+
+      <div class="input">
+        <input type="text" placeholder="Enter Amount" />
+      </div>
+
+      <div class="selectContainer">
+        <div class="from_select">
+          <div class="infoText">
+            <h4>From</h4>
+          </div>
+        <div class="from">
+          <select name="from">
+          </select>
+          <img src="https://flagsapi.com/US/flat/64.png" />
+        </div>
+        </div>
+
+        <div class="to_select">
+          <div class="infoText">
+            <h4>TO</h4>
+          </div>
+          <div class="to">
+            <select name="to">
+            </select>
+            <img src="https://flagsapi.com/NP/flat/64.png" />
+          </div>
+        </div>
+      </div>
+      <button class="btn">Convert</button>
+      <button class="btn2">Reset</button>
+      <input type="text" id="output" placeholder="Converted Amount" />
+
+
+    </form>
+
+    <script src="./codes.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
